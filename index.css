@@ -15,7 +15,7 @@
   --color-gray-5: #e9e9e9;
   --color-gray-6: #e6e2e3;
   --color-gray-7: #d7d7d7;
-  --color-gray-8: #cecece;
+  --color-gray-8: #cccccc;
   --color-gray-9: #c5c5c5;
   --color-gray-10: #bcbcbc;
   --color-gray-11: #a1a1a1;
@@ -40,7 +40,7 @@ body {
 }
 
 html {
-  font-size: max(calc(16 * min(100vw / 600, 100vh / 800)), 0rem);
+  font-size: max(calc(16 * min(100vw / 600, 100vh / 842)), 0rem);
 }
 
 body {
@@ -110,8 +110,8 @@ body::-webkit-scrollbar {
   font-family: "Pacifico";
   margin-bottom: -0.09375rem;
   color: var(--color-gray-3);
-  text-shadow: -0.0625rem -0.0625rem 0.1875rem var(--color-gray-13),
-    0.0625rem 0.0625rem 0.1875rem var(--color-gray-16);
+  text-shadow: -0.07rem -0.07rem 0.1875rem var(--color-gray-13),
+    0.07rem 0.07rem 0.1875rem var(--color-gray-16);
 }
 
 #print-button {
@@ -128,7 +128,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   border-radius: 1.5625rem;
   padding: 0 0.5625rem 0 0.5625rem;
-  border: 0.0625rem solid var(--color-gray-4);
+  border: 0.07rem solid var(--color-gray-4);
   background: linear-gradient(145deg, var(--color-gray-18), var(--color-black));
   box-shadow: 0.375rem 0.375rem 0.75rem var(--color-gray-9),
     -0.375rem -0.375rem 0.75rem var(--color-white);
@@ -179,7 +179,7 @@ body::-webkit-scrollbar {
   width: 70%;
   z-index: 2;
   content: "";
-  height: 0.0625rem;
+  height: 0.07rem;
   position: absolute;
   bottom: 0.09375rem;
   border-radius: 0.3125rem;
@@ -190,7 +190,7 @@ body::-webkit-scrollbar {
   width: 100%;
   position: absolute;
   height: 0.40625rem;
-  border-radius: 0.0625rem;
+  border-radius: 0.07rem;
   transition: background-color 0.5s ease, border 0.5s ease;
 }
 
@@ -201,7 +201,7 @@ body::-webkit-scrollbar {
   right: 0.15625rem;
   position: absolute;
   height: 0.09375rem;
-  border-radius: 0.0625rem;
+  border-radius: 0.07rem;
   background-color: var(--color-black);
 }
 
@@ -210,7 +210,7 @@ body::-webkit-scrollbar {
 }
 
 .active-icon#print-icon > div:first-child {
-  border: 0.0625rem var(--color-lemon) solid;
+  border: 0.07rem var(--color-lemon) solid;
 }
 
 .active-icon#print-icon > div:first-child div::before,
@@ -237,7 +237,7 @@ body::-webkit-scrollbar {
 }
 
 .inactive-icon#print-icon > div:first-child {
-  border: 0.0625rem var(--color-red) solid;
+  border: 0.07rem var(--color-red) solid;
 }
 
 .inactive-icon#print-icon > div:first-child div::before,
@@ -280,7 +280,7 @@ body::-webkit-scrollbar {
   height: 0.75rem;
   width: 31.875rem;
   position: relative;
-  margin-top: -0.0625rem;
+  margin-top: -0.07rem;
   justify-content: center;
   border-radius: 0 0 0.75rem 0.75rem;
   background-color: var(--color-gray-10);
@@ -300,7 +300,7 @@ body::-webkit-scrollbar {
 #receipt-wrapper {
   width: 100%;
   display: flex;
-  top: 0.1875rem;
+  top: 0.25rem;
   overflow: hidden;
   position: absolute;
   justify-content: center;
@@ -338,7 +338,7 @@ body::-webkit-scrollbar {
   align-items: center;
   padding: 1.375rem 1.375rem;
   justify-content: space-between;
-  border-bottom: 0.0625rem solid var(--color-gray-2);
+  border-bottom: 0.07rem solid var(--color-gray-2);
 }
 
 .receipt-header > div:first-child {
@@ -388,7 +388,7 @@ body::-webkit-scrollbar {
   padding: 1.375rem 1.375rem;
   color: var(--color-gray-15);
   justify-content: space-between;
-  border-bottom: 0.0625rem solid var(--color-gray-2);
+  border-bottom: 0.07rem solid var(--color-gray-2);
 }
 
 .receipt-footer {
@@ -451,7 +451,7 @@ body::-webkit-scrollbar {
   position: relative;
   border-radius: 50%;
   background-color: var(--color-gold-2);
-  border: 0.0625rem var(--color-gold-3) solid;
+  border: 0.07rem var(--color-gold-3) solid;
 }
 
 .emoji > div::before {
@@ -500,7 +500,7 @@ body::-webkit-scrollbar {
   height: 100%;
   display: block;
   border-radius: 50%;
-  border: 0.0625rem var(--color-gold-3) solid;
+  border: 0.07rem var(--color-gold-3) solid;
   clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
 }
 
@@ -521,7 +521,7 @@ body::-webkit-scrollbar {
   height: 0.125rem;
   position: absolute;
   border-radius: 50%;
-  filter: blur(0.0625rem);
+  filter: blur(0.07rem);
   transform: translateX(-50%);
   background-color: var(--color-white);
 }
@@ -533,7 +533,7 @@ body::-webkit-scrollbar {
   border-radius: 50%;
   position: absolute;
   transform: translateX(-50%);
-  border: 0.0625rem var(--color-gold-3) solid;
+  border: 0.07rem var(--color-gold-3) solid;
   clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0% 100%);
 }
 
@@ -544,7 +544,7 @@ body::-webkit-scrollbar {
 .cutout > div {
   width: 100%;
   position: relative;
-  margin-top: -0.0625rem;
+  margin-top: -0.07rem;
   filter: drop-shadow(0 0.75rem 0.3125rem var(--color-gray-17));
 }
 
