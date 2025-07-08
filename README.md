@@ -1,6 +1,6 @@
 # 🖨️ Animated Receipt Printer – Zee Printer
 
-This is a pixel-perfect, animated receipt printer created entirely with **pure CSS** - no images, no SVGs, no icons. It features dynamic printing effects, responsive scaling, a blinking indicator, and clean DOM management, all designed to mimic real-world hardware behavior.
+This is a pixel-perfect, animated receipt printer created entirely with **pure CSS** - no images, no SVGs, no icons. It features dynamic printing effects, responsive scaling, a blinking indicator, sound feedback during printing, and clean DOM management, all designed to mimic real-world hardware behavior.
 
 View Live: 🔗 [Zee Printer Demo](https://nwoye-ezekiel.github.io/zee-printer/)
 
@@ -8,6 +8,7 @@ View Live: 🔗 [Zee Printer Demo](https://nwoye-ezekiel.github.io/zee-printer/)
 
 - Pure CSS art.
 - Fully responsive.
+- Sound effect when printing.
 - Dynamic paper printing animation.
 - Button with visual disabled state and LED indicator.
 - DOM cleanup after each print to maintain only one receipt.
