@@ -1,9 +1,25 @@
-# CSS Art - Rubber Duck
+# 🖨️ Animated Receipt Printer – Zee Printer
 
-This is a CSS-created digital graphical image of a rubber duck. It also includes a soothing animation effect.
+This is a pixel-perfect, animated receipt printer created entirely with **pure CSS** - no images, no SVGs, no icons. It features dynamic printing effects, responsive scaling, a blinking indicator, and clean DOM management, all designed to mimic real-world hardware behavior.
 
-View Live [Here](https://nwoye-ezekiel.github.io/CSS-Art-Rubber-Duck/)
+View Live: 🔗 [Zee Printer Demo](https://nwoye-ezekiel.github.io/zee-printer/)
 
-### Reference Image
+### 🧠 Key Features
 
-![Rubber-Duck](/rubber-duck.png)
+- Pure CSS art.
+- Fully responsive.
+- Dynamic paper printing animation.
+- Button with visual disabled state and LED indicator.
+- DOM cleanup after each print to maintain only one receipt.
+
+### 📸 Reference Screenshot
+
+![Zee Printer](/reference-screenshot.png)
+
+> The printer was recreated from a **static screenshot** image only.
+
+### 🧵 Referenced Thread on X (formerly Twitter)
+
+I was inspired by a post from [Ayodele (@pixelbyayo)](https://x.com/pixelbyayo) and recreated the design using only code.
+
+The original design tweet: 🔗 [View the original post on X](https://x.com/pixelbyayo/status/1921843550431379487)
