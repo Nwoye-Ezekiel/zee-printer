@@ -5,6 +5,9 @@ const printIndicator = document.getElementById("print-indicator");
 const receiptsWrapper = document.getElementById("receipts-wrapper");
 const receiptContainer = document.getElementById("receipt-container");
 
+const printerSound = new Audio("./printer.mp3");
+printerSound.currentTime = 0;
+
 const setPrintIndicator = (state) => {
   printIndicator.classList.remove("active-background", "inactive-background");
   printIcon.classList.remove("active-icon", "inactive-icon");
@@ -23,7 +26,6 @@ printButton.addEventListener("click", () => {
 
   let newReceipt = null;
 
-  const printerSound = new Audio("./printer.mp3");
   printerSound.play();
 
   setPrintIndicator("active");
@@ -38,6 +40,8 @@ printButton.addEventListener("click", () => {
 
   setTimeout(() => {
     isPrinting = false;
+    printerSound.pause();
+    printerSound.currentTime = 0;
 
     if (newReceipt) {
       newReceipt.classList.add("fade-out");
