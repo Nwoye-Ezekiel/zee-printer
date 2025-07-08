@@ -52,5 +52,5 @@ printButton.addEventListener("click", () => {
     }
 
     setPrintIndicator("inactive");
-  }, 8000);
+  }, 6500);
 });

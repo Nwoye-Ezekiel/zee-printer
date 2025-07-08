@@ -318,7 +318,7 @@ body::-webkit-scrollbar {
 }
 
 .print {
-  animation: print 8s linear forwards;
+  animation: print 6.5s linear forwards;
 }
 
 .receipt {
