@@ -1,9 +1,9 @@
-const printIndicator = document.getElementById("print-indicator");
 const printIcon = document.getElementById("print-icon");
 const printButton = document.getElementById("print-button");
 const receiptWrapper = document.getElementById("receipt-wrapper");
-const receiptContainer = document.getElementById("receipt-container");
+const printIndicator = document.getElementById("print-indicator");
 const receiptsWrapper = document.getElementById("receipts-wrapper");
+const receiptContainer = document.getElementById("receipt-container");
 
 const setPrintIndicator = (state) => {
   printIndicator.classList.remove("active-background", "inactive-background");
@@ -12,8 +12,7 @@ const setPrintIndicator = (state) => {
   printIcon.classList.add(`${state}-icon`);
 };
 
-let isPrinting = false;
-let hasPrinted = false;
+let isPrinting = false, hasPrinted = false;
 
 setPrintIndicator("inactive");
 
