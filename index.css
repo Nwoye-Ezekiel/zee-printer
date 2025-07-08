@@ -450,6 +450,7 @@ body::-webkit-scrollbar {
   height: 1.8125rem;
   position: relative;
   border-radius: 50%;
+  clip-path: circle();
   background-color: var(--color-gold-2);
   border: 0.07rem var(--color-gold-3) solid;
 }
