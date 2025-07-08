@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Animated Receipt Printer - By Ezekiel Nwoye</title>
+  </head>
+  <body>
+    <div class="printer">
+      <div>
+        <p>Zee Print</p>
+        <button id="print-button">
+          <div id="print-icon">
+            <div><div></div></div>
+            <div></div>
+          </div>
+          <div id="print-indicator"></div>
+        </button>
+      </div>
+      <div></div>
+      <div>
+        <div id="receipts-wrapper">
+          <div id="receipt-wrapper">
+            <div id="receipt-container">
+              <div class="receipt">
+                <div class="receipt-header">
+                  <div>
+                    <p>Payment Successful</p>
+                    <p>
+                      <span>11 May 2024</span>
+                      <span>08:30 PM</span>
+                    </p>
+                  </div>
+                  <div></div>
+                </div>
+                <div class="receipt-body">
+                  <div>
+                    <div>
+                      <p>1x Jollof Rice & Turkey</p>
+                      <p><span>₦</span>3,500.00</p>
+                    </div>
+                    <div>
+                      <p>1x Zobo Drink</p>
+                      <p><span>₦</span>800.00</p>
+                    </div>
+                    <div>
+                      <p>1x Small Chops Pack</p>
+                      <p><span>₦</span>2,500.00</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <p>Subtotal</p>
+                      <p><span>₦</span>6,800.00</p>
+                    </div>
+                    <div>
+                      <p>VAT (9%)</p>
+                      <p><span>₦</span>612.00</p>
+                    </div>
+                    <div>
+                      <p>Service Fee</p>
+                      <p><span>₦</span>2,500.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="receipt-footer">
+                  <div>
+                    <p>TOTAL</p>
+                    <p><span>₦</span>7,450.00</p>
+                  </div>
+                  <div>
+                    <div class="emoji">
+                      <div>
+                        <span>
+                          <span><span></span></span>
+                          <span><span></span></span>
+                        </span>
+                        <span><span></span></span>
+                      </div>
+                    </div>
+                    <span>THANK YOU</span>
+                  </div>
+                </div>
+              </div>
+              <div class="cutout">
+                <div><div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
