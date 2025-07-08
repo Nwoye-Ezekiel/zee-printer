@@ -1,12 +1,17 @@
+const modal = document.getElementById("modal");
 const printIcon = document.getElementById("print-icon");
+const okayButton = document.getElementById("okay-button");
 const printButton = document.getElementById("print-button");
 const receiptWrapper = document.getElementById("receipt-wrapper");
 const printIndicator = document.getElementById("print-indicator");
 const receiptsWrapper = document.getElementById("receipts-wrapper");
 const receiptContainer = document.getElementById("receipt-container");
 
+let isPrinting = false, hasPrinted = false;
 const printerSound = new Audio("./printer.mp3");
+
 printerSound.currentTime = 0;
+modal.classList.add("fade-in-animation");
 
 const setPrintIndicator = (state) => {
   printIndicator.classList.remove("active-background", "inactive-background");
@@ -15,9 +20,11 @@ const setPrintIndicator = (state) => {
   printIcon.classList.add(`${state}-icon`);
 };
 
-let isPrinting = false, hasPrinted = false;
-
 setPrintIndicator("inactive");
+
+okayButton.addEventListener("click", () => {
+  modal.classList.add("fade-out-animation");
+});
 
 printButton.addEventListener("click", () => {
   if (isPrinting) return;
